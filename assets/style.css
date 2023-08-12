@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+
+}
+div{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10%;
+}
+header{
+    background-image: url(./images/lara-far-EUg3mLMKfbo-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 98vh;
+   padding: 6%;
+
+
+}
+img{
+    background-color: rgb(222, 24, 236);
+    border-radius:50%;
+ 
+}
+fieldset{
+    max-width: 400px;
+    margin: auto;
+    padding: 1%;
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 600px;
+    text-align: center;
+    color: antiquewhite;
+    border: 1px solid black;
+
+}
+#login{
+    color: rgb(168, 5, 237);
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+h1{
+    font-weight: bold;
+    font-variant-caps:all-petite-caps;
+}
+button{
+    width: 90%;
+    height: 40px;
+    color: rgb(251, 247, 255);
+    background-color: rgb(103, 1, 78);
+    border-radius: 2em;
+    margin-bottom: 13%;
+    border: 2px solid rgb(208, 115, 180);
+    cursor: pointer;
+}
+.in1{
+    width: 90%;
+    height: 40px;
+    border-radius: .1em;
+    border: 0px;
+    padding: 1%;
+    margin: 2%;
+}
+p{
+    text-align: start;
+    padding-left: 5%;
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
